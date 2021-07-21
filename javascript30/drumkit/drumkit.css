@@ -4,9 +4,10 @@
 }
 
 body{
-    background-color:cornsilk;
+    
     height:50vh;
     width:100vw;
+    background-image: url(/drumkit/images/download.jpg);
 }
 
 .keys{
@@ -16,9 +17,7 @@ body{
     display: flex;
     margin: 250px 30px 0px 30px;
     justify-content: space-evenly;
-    align-items: center;;
-
-    
+    align-items: center;
 }
 
 .key{
@@ -28,17 +27,24 @@ body{
     width:80px;
     text-align: center;
     justify-content: center;
-    transition: all 0.07 ease-in-out;
-    background-color: skyblue;
-    
+    transition: all 0.07s ease-in;
+    background-color: rgba(11, 221, 204, 0.808);
+   text-shadow: px 0px 5px whitesmoke;
 }
 
+
+
 kbd{
-    
     display:block;
     font: 30px bold;
 }
 
 span{
-    color: rgb(8, 12, 8);
+    color: rgb(10, 10, 10);
+}
+
+.playing{
+    transform:scale(1.1);
+    border: 10px solid greenyellow;
+    box-shadow: 0px 0px 20px rgb(65, 34, 178);
 }
