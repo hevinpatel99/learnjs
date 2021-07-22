@@ -7,7 +7,7 @@ body{
     
     height:50vh;
     width:100vw;
-    background-image: url(/drumkit/images/download.jpg);
+    background-image: url(./images/download.jpg);
 }
 
 .keys{
